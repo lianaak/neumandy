@@ -1,3 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS / Metadata
+.DS_Store
+*.code-workspace
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter
+*.ipynb_checkpoints
+
 # we do not want to push any data files to Github
 
 *.pkl
@@ -7,16 +37,4 @@
 *.gif
 *.log
 
-# scratch is a temporary folder for scratchbooks that are not pushed to Github
-data/scratch/*
 
-__pycache__/
-
-data/wbstruct_converter/utils/__pycache__/
-data/wbstruct_converter/utils/__pycache__/wbstruct_dicts_to_dataframes.cpython-310.pyc
-*-checkpoint.ipynb
-data/preprocessing/debug.log
-data/preprocessing/LFADS.ipynb
-data/preprocessing/intrinsic_dimensionality.ipynb
-data/preprocessing/atrs.ipynb
-data/preprocessing/lfads_triggered
